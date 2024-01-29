@@ -1,0 +1,40 @@
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+  }
+  
+  .title:hover {
+    background-color: #eaeaea;
+  }
+  
+  .title h3 {
+    margin: 0;
+  }
+  
+  .title span {
+    font-size: 20px;
+  }
+  
+  .answer {
+    padding: 10px;
+  }
+  
