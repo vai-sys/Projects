@@ -1,11 +1,9 @@
-
-import './App.css';
 import RandomColor from './components/RandomColor';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <Accordian/> */}
       <RandomColor/>
     </div>
   );
