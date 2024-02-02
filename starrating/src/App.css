@@ -1,4 +1,4 @@
-/* .active{
+.active{
     color:yellow;
 
 }
@@ -13,9 +13,4 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-} */
-
-.imagebox img{
-    width:300px;
-    height:auto;
 }

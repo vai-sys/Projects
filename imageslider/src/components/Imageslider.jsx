@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Imageslider = ({ Images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,6 +10,13 @@ const Imageslider = ({ Images }) => {
   const prevBtn = () => {
     setCurrentIndex((index) => (index === 0 ? Images.length - 1 : index - 1));
   };
+
+  useEffect(()=>{
+    const interval=setInterval(()=>{
+      setCurrentIndex((index)=>(index===Images.length-1 ? 0 :index+1))
+    },1000);
+    return ()=>clearInterval(interval);
+  },[Images.length])
 
   return (
     <div>
