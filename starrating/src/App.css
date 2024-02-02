@@ -1,11 +1,11 @@
-.active{
+/* .active{
     color:yellow;
 
 }
 .inactive{
     color:grey;
 }
-body{
+body{ 
     background-color: black;
 }
 .box{
@@ -13,4 +13,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+} */
+
+.imagebox img{
+    width:300px;
+    height:auto;
 }
